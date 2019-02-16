@@ -1,0 +1,26 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #ddd; }
+
+.sudoku {
+  background: #fff;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  position: absolute;
+  display: table;
+  top: 50%;
+  left: 50%;
+  max-width: 370px;
+  transform: translate(-50%, -50%); }
+  .sudoku--cell {
+    border: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    float: left; }
+
+/*# sourceMappingURL=main.css.map */
